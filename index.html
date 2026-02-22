@@ -232,15 +232,14 @@ Bunu her zaman söyleyemem ama içimde gerçekten özel bir yerin var.
 
 <section>
   <h2>♪ Bizim Şarkımız</h2>
-  <iframe 
-    width="300" 
-    height="170"
-    src="https://www.youtube.com/embed/1k3v8Y5sF1Y?rel=0"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
+  <button onclick="playSong()">Bal</button>
 </section>
+
+<script>
+function playSong(){
+  window.open("https://www.youtube.com/watch?v=VIDEO_ID", "_blank");
+}
+</script>
 
 <section>
 <button onclick="showSurprise()">Buna Tıklama 🙃</button>
